@@ -18,6 +18,7 @@ gem 'jquery-rails'
 
 gem "font-awesome-rails"
 
+gem 'stripe'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
@@ -71,3 +72,6 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+# Secret key sk_test_Kdi8HSoJlHjsgpJBQTkxPm5G
+# Publishable key pk_test_MYXMidtS59QQkjsODPxyODx3
